@@ -39,37 +39,38 @@
         android:text="Search" />
 
 
+        <Button
+            android:id="@+id/RK_magasins"
+            android:layout_width="72dp"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/TF_location"
+            android:background="@drawable/market"
+            android:onClick="onClick"/>
 
-
-    <Button
-        android:id="@+id/RK_magasins"
-        android:layout_width="55dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/TF_location"
-        android:background="@drawable/ic_shopping_cart_black_24dp"
-        android:onClick="onClick"
-        android:text="Shoppings" />
-
-    <Button
-        android:id="@+id/RK_cafe"
-        android:layout_width="72dp"
-        android:layout_height="54dp"
-        android:layout_below="@+id/TF_location"
-        android:layout_toEndOf="@+id/RK_magasins"
-        android:background="@drawable/ic_local_cafe_black_24dp"
-        android:onClick="onClick"
-        android:text="Café" />
+        <Button
+            android:id="@+id/RK_cafe"
+            android:layout_width="72dp"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/TF_location"
+            android:layout_toEndOf="@+id/RK_magasins"
+            android:background="@drawable/cafe"
+            android:onClick="onClick" />
 
     <Button
         android:id="@+id/RK_restaurants"
         android:layout_width="72dp"
         android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/TF_location"
         android:layout_toEndOf="@+id/RK_cafe"
-        android:background="@drawable/ic_restaurant_black_24dp"
-        android:onClick="onClick"
-        android:text="Restaurants" />
+        android:background="@drawable/restaurant"
+        android:onClick="onClick" />
 
         </LinearLayout>
     </RelativeLayout>
