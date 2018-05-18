@@ -49,7 +49,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private Location lastLocation;
     private Marker currentLocationMarker;
     public static final int REQUEST_LOCATION_CODE=99;
-    int PROXIMITY_RADIUS = 10000;
+    int PROXIMITY_RADIUS = 3500;
     double latitude,longitude;
 
     @Override
