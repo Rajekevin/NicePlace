@@ -1,0 +1,45 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_airplay_black_24dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/place_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Nom de la place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/address"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="addresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/open_hour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Ouvert Maintenant :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

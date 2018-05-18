@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GooglePlace</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Listing -->
+    <string name="listing_title_restaurant">Les Restaurants</string>
+    <string name="listing_title_hotels">Les Hôtels</string>
+</resources>
