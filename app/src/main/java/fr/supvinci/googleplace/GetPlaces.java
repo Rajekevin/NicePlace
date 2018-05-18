@@ -1,9 +1,7 @@
 package fr.supvinci.googleplace;
 
-import android.media.Image;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.ImageView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -75,20 +73,20 @@ public class GetPlaces extends AsyncTask<Object, String, String> {
 
          int   checkShopping = googlePlace.get("types").contains("shopping_mall") ? 1 : 2;
             if(checkShopping == 1 ){
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_shopping));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.np_shop));
             }
 
 
            int checkCafe = googlePlace.get("types").contains("cafe") ? 1 : 2;
            if(checkCafe == 1 ){
 
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_cafe));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.np_cafe));
 
             }
 
             int checkRestaurant = googlePlace.get("types").contains("restaurant") ? 1 : 2;
             if(checkRestaurant == 1 ){
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_resto));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.np_resto));
                // markerOptions.icon(Images.from)
             }
 
